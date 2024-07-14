@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(32, 30, 30, 0.027);
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.search {
+    height: 40px;
+    width: 600px;
+    font-size: 18px;
+    padding-left: 15px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.048);
+    border: none;
+}
+
+.loginicon {
+    font-size: 20px;
+}
+
+#logintxt {
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.carticon {
+    font-size: 20px;
+}
+
+/* Iteams styling */
+.bigimg {
+    height: 200px;
+    width: 81rem;
+    margin-left: 1rem;
+    padding: 10px;
+}
+
+.iteams {
+    height: 350px;
+    width: 82rem;
+    margin-left: 1.5rem;
+    padding: 10px;
+}
+
+.things {
+    display: flex;
+    gap: 20px;
+}
+
+.i1 {
+    border: 0.01px solid black;
+    height: 16rem;
+    width: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.i1 h5 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* Styling of Footer */
+.footer{
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    height: 350px;
+    padding: 50px;
+    font-size: 15px;
+    display: flex;
+    gap: 50px;
+}
+.abtxt{
+    color: rgba(255, 255, 255, 0.521);
+}
+.line{
+    background-color: rgba(255, 255, 255, 0.521);
+    height: 200px;
+    width: 2px;
+}
